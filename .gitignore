@@ -1,0 +1,10 @@
+node_modules/
+.npm-cache/
+ppt_media_preview/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example

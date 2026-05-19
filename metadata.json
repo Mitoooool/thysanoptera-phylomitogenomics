@@ -1,0 +1,8 @@
+{
+  "name": "Demosponge Phylogeny Visualizer",
+  "description": "A scientific, aesthetically pleasing redesign of the Demosponge Phylogeny webpage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
