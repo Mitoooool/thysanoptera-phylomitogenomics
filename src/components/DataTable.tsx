@@ -1,7 +1,12 @@
 import React from 'react';
 import { Search } from 'lucide-react';
 
-type DataRow = Record<string, string | number>;
+type DataCell = string | number | { text: string; href: string };
+type DataRow = Record<string, DataCell>;
+
+function getCellText(value: DataCell | undefined) {
+  return typeof value === 'object' ? value.text : String(value ?? '');
+}
 
 interface DataTableProps {
   headers: readonly string[];
@@ -15,7 +20,7 @@ export function DataTable({ headers, rows, searchTerm, onSearchChange, stickyCol
   const normalizedSearch = searchTerm.trim().toLowerCase();
   const filteredRows = normalizedSearch
     ? rows.filter((row) =>
-        headers.some((header) => String(row[header] ?? '').toLowerCase().includes(normalizedSearch)),
+        headers.some((header) => getCellText(row[header]).toLowerCase().includes(normalizedSearch)),
       )
     : rows;
 
@@ -65,7 +70,18 @@ export function DataTable({ headers, rows, searchTerm, onSearchChange, stickyCol
                         : 'text-slate-400'
                     }`}
                   >
-                    {String(row[header] ?? '')}
+                    {typeof row[header] === 'object' ? (
+                      <a
+                        href={row[header].href}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-cyan-vivid underline decoration-cyan-vivid/40 underline-offset-2 hover:text-white"
+                      >
+                        {row[header].text}
+                      </a>
+                    ) : (
+                      getCellText(row[header])
+                    )}
                   </td>
                 ))}
               </tr>

@@ -14,7 +14,7 @@ export const genomeRows = [
     "Species": "Odontothrips phaseoli",
     "GenBank": "OR593754",
     "GO type": 20,
-    "Reference": ""
+    "Reference": {"text":"Wang et al. 2024","href":"http://dx.doi.org/10.1080/23802359.2024.2386418"}
   },
   {
     "Family": "Thripidae",
@@ -22,7 +22,7 @@ export const genomeRows = [
     "Species": "Odontothrips pentatrichopus",
     "GenBank": "OP913451",
     "GO type": 20,
-    "Reference": ""
+    "Reference": {"text":"Cheng et al. 2022","href":"http://dx.doi.org/10.1080/23802359.2022.2089065"}
   },
   {
     "Family": "Thripidae",
@@ -30,7 +30,7 @@ export const genomeRows = [
     "Species": "Odontothrips loti",
     "GenBank": "ON210965",
     "GO type": 21,
-    "Reference": ""
+    "Reference": {"text":"Liu et al. 2023","href":"https://pubmed.ncbi.nlm.nih.gov/37689283/"}
   },
   {
     "Family": "Thripidae",
@@ -38,7 +38,7 @@ export const genomeRows = [
     "Species": "Odontothrips loti",
     "GenBank": "MN584901",
     "GO type": 21,
-    "Reference": ""
+    "Reference": {"text":"Li et al. 2020","href":"https://pubmed.ncbi.nlm.nih.gov/33366396/"}
   },
   {
     "Family": "Thripidae",
@@ -46,7 +46,7 @@ export const genomeRows = [
     "Species": "Megalurothrips usitatus",
     "GenBank": "ON815612",
     "GO type": 22,
-    "Reference": ""
+    "Reference": {"text":"Lin et al. 2023","href":"https://doi.org/10.1080/23802359.2023.2261644"}
   },
   {
     "Family": "Thripidae",
@@ -54,7 +54,7 @@ export const genomeRows = [
     "Species": "Megalurothrips usitatus",
     "GenBank": "OK564665",
     "GO type": 23,
-    "Reference": ""
+    "Reference": {"text":"Cheng et al. 2022","href":"https://pubmed.ncbi.nlm.nih.gov/35783057/"}
   },
   {
     "Family": "Thripidae",
@@ -62,7 +62,7 @@ export const genomeRows = [
     "Species": "Megalurothrips distalis",
     "GenBank": "OP913453",
     "GO type": 24,
-    "Reference": ""
+    "Reference": "Kunming Institute of Zoology, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -70,7 +70,7 @@ export const genomeRows = [
     "Species": "Bregmatothrips sinensis",
     "GenBank": "OP913450",
     "GO type": 26,
-    "Reference": ""
+    "Reference": "Kunming Institute of Zoology, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -78,7 +78,7 @@ export const genomeRows = [
     "Species": "Craspedothrips minor",
     "GenBank": "MW581161",
     "GO type": 7,
-    "Reference": ""
+    "Reference": {"text":"Pakrashi et al. 2022","href":"https://pubmed.ncbi.nlm.nih.gov/35534583/"}
   },
   {
     "Family": "Thripidae",
@@ -86,7 +86,7 @@ export const genomeRows = [
     "Species": "Mycterothrips gongshanensis",
     "GenBank": "MZ913437",
     "GO type": 25,
-    "Reference": ""
+    "Reference": {"text":"Li et al. 2022","href":"https://doi.org/10.21203/rs.3.rs-1436592/v1"}
   },
   {
     "Family": "Thripidae",
@@ -94,7 +94,7 @@ export const genomeRows = [
     "Species": "Mycterothrips nilgiriensis",
     "GenBank": "MT872373",
     "GO type": 25,
-    "Reference": ""
+    "Reference": {"text":"Pakrashi et al. 2022","href":"https://pubmed.ncbi.nlm.nih.gov/35534583/"}
   },
   {
     "Family": "Thripidae",
@@ -102,7 +102,7 @@ export const genomeRows = [
     "Species": "Arorathrips mexicanus",
     "GenBank": "OP913452",
     "GO type": 27,
-    "Reference": ""
+    "Reference": "Kunming Institute of Zoology, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -110,7 +110,7 @@ export const genomeRows = [
     "Species": "Frankliniella occidentalis",
     "GenBank": "KJ576887",
     "GO type": 33,
-    "Reference": ""
+    "Reference": {"text":"Wei et al. 2017","href":"https://pubmed.ncbi.nlm.nih.gov/28352298/"}
   },
   {
     "Family": "Thripidae",
@@ -118,7 +118,7 @@ export const genomeRows = [
     "Species": "Frankliniella occidentalis",
     "GenBank": "JN835456",
     "GO type": 34,
-    "Reference": ""
+    "Reference": {"text":"Yan et al. 2012","href":"https://pubmed.ncbi.nlm.nih.gov/22750320/"}
   },
   {
     "Family": "Thripidae",
@@ -126,7 +126,7 @@ export const genomeRows = [
     "Species": "Frankliniella panamensis",
     "GenBank": "OR060662",
     "GO type": 34,
-    "Reference": ""
+    "Reference": {"text":"Saldamando et al. 2026","href":"https://doi.org/10.1093/jisesa/ieaf116"}
   },
   {
     "Family": "Thripidae",
@@ -134,7 +134,7 @@ export const genomeRows = [
     "Species": "Frankliniella gardeniae",
     "GenBank": "OR018834",
     "GO type": 35,
-    "Reference": ""
+    "Reference": {"text":"Saldamando et al. 2026","href":"https://doi.org/10.1093/jisesa/ieaf116"}
   },
   {
     "Family": "Thripidae",
@@ -142,7 +142,7 @@ export const genomeRows = [
     "Species": "Frankliniella intonsa",
     "GenBank": "MK251062",
     "GO type": 36,
-    "Reference": ""
+    "Reference": {"text":"Song et al. 2019","href":"https://doi.org/10.1016/j.ympev.2019.05.009"}
   },
   {
     "Family": "Thripidae",
@@ -150,7 +150,7 @@ export const genomeRows = [
     "Species": "Frankliniella schultzei",
     "GenBank": "MT872372",
     "GO type": 38,
-    "Reference": ""
+    "Reference": {"text":"Pakrashi et al. 2022","href":"https://pubmed.ncbi.nlm.nih.gov/35534583/"}
   },
   {
     "Family": "Thripidae",
@@ -158,7 +158,7 @@ export const genomeRows = [
     "Species": "Scolothrips takahashii",
     "GenBank": "PQ315767",
     "GO type": 39,
-    "Reference": ""
+    "Reference": "Yunnan Agricultural University, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -166,7 +166,7 @@ export const genomeRows = [
     "Species": "Scirtothrips dorsalis",
     "GenBank": "KM349827",
     "GO type": 28,
-    "Reference": ""
+    "Reference": {"text":"Dickey et al. 2015","href":"https://pubmed.ncbi.nlm.nih.gov/26055161/"}
   },
   {
     "Family": "Thripidae",
@@ -174,7 +174,7 @@ export const genomeRows = [
     "Species": "Scirtothrips dorsalis",
     "GenBank": "KM349826",
     "GO type": 29,
-    "Reference": ""
+    "Reference": {"text":"Dickey et al. 2015","href":"https://pubmed.ncbi.nlm.nih.gov/26055161/"}
   },
   {
     "Family": "Thripidae",
@@ -182,7 +182,7 @@ export const genomeRows = [
     "Species": "Scirtothrips hansoni",
     "GenBank": "OR044712",
     "GO type": 29,
-    "Reference": ""
+    "Reference": {"text":"Saldamando et al. 2026","href":"https://doi.org/10.1093/jisesa/ieaf116"}
   },
   {
     "Family": "Thripidae",
@@ -190,7 +190,7 @@ export const genomeRows = [
     "Species": "Echinothrips americanus",
     "GenBank": "ON210962",
     "GO type": 30,
-    "Reference": ""
+    "Reference": {"text":"Liu et al. 2023","href":"https://pubmed.ncbi.nlm.nih.gov/37689283/"}
   },
   {
     "Family": "Thripidae",
@@ -198,7 +198,7 @@ export const genomeRows = [
     "Species": "Echinothrips americanus",
     "GenBank": "KY751032",
     "GO type": 30,
-    "Reference": ""
+    "Reference": {"text":"China Agricultural University, Direct Submission","href":"https://pubmed.ncbi.nlm.nih.gov/37689283/"}
   },
   {
     "Family": "Thripidae",
@@ -206,7 +206,7 @@ export const genomeRows = [
     "Species": "Neohydatothrips gracilipes",
     "GenBank": "OR834984",
     "GO type": 31,
-    "Reference": ""
+    "Reference": {"text":"Ghosh et al. 2025","href":"http://dx.doi.org/10.1038/s41598-025-97270-2"}
   },
   {
     "Family": "Thripidae",
@@ -214,7 +214,7 @@ export const genomeRows = [
     "Species": "Neohydatothrips samayunkur",
     "GenBank": "MF991901",
     "GO type": 31,
-    "Reference": ""
+    "Reference": {"text":"Kumar et al. 2019","href":"https://pubmed.ncbi.nlm.nih.gov/30655597/"}
   },
   {
     "Family": "Thripidae",
@@ -222,7 +222,7 @@ export const genomeRows = [
     "Species": "Sericothrips houjii",
     "GenBank": "PP697967",
     "GO type": 32,
-    "Reference": ""
+    "Reference": {"text":"Liu et al. 2024","href":"https://doi.org/10.3390/insects15090700"}
   },
   {
     "Family": "Thripidae",
@@ -230,7 +230,7 @@ export const genomeRows = [
     "Species": "Ayyaria chaetophora",
     "GenBank": "OP913441",
     "GO type": 37,
-    "Reference": ""
+    "Reference": "Kunming Institute of Zoology, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -238,7 +238,7 @@ export const genomeRows = [
     "Species": "Stenchaetothrips bicolor",
     "GenBank": "OP913448",
     "GO type": 1,
-    "Reference": ""
+    "Reference": "Kunming Institute of Zoology, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -246,7 +246,7 @@ export const genomeRows = [
     "Species": "Stenchaetothrips minutus",
     "GenBank": "OP913447",
     "GO type": 1,
-    "Reference": ""
+    "Reference": "Kunming Institute of Zoology, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -254,7 +254,7 @@ export const genomeRows = [
     "Species": "Stenchaetothrips biformis",
     "GenBank": "OP913446",
     "GO type": 2,
-    "Reference": ""
+    "Reference": "Kunming Institute of Zoology, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -262,7 +262,7 @@ export const genomeRows = [
     "Species": "Stenchaetothrips biformis",
     "GenBank": "ON653412",
     "GO type": 3,
-    "Reference": ""
+    "Reference": {"text":"Hu et al. 2023","href":"https://pubmed.ncbi.nlm.nih.gov/36761102/"}
   },
   {
     "Family": "Thripidae",
@@ -270,7 +270,7 @@ export const genomeRows = [
     "Species": "Thrips palmi",
     "GenBank": "MN127984",
     "GO type": 4,
-    "Reference": ""
+    "Reference": "InfoBoss Co., Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -278,7 +278,7 @@ export const genomeRows = [
     "Species": "Thrips palmi",
     "GenBank": "MN127983",
     "GO type": 4,
-    "Reference": ""
+    "Reference": "InfoBoss Co., Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -286,7 +286,7 @@ export const genomeRows = [
     "Species": "Thrips palmi",
     "GenBank": "MN127985",
     "GO type": 4,
-    "Reference": ""
+    "Reference": "InfoBoss Co., Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -294,7 +294,7 @@ export const genomeRows = [
     "Species": "Thrips palmi",
     "GenBank": "MH253898",
     "GO type": 5,
-    "Reference": ""
+    "Reference": {"text":"Chakraborty et al. 2018","href":"https://pubmed.ncbi.nlm.nih.gov/30379813/"}
   },
   {
     "Family": "Thripidae",
@@ -302,7 +302,7 @@ export const genomeRows = [
     "Species": "Thrips brevicornis",
     "GenBank": "OP913444",
     "GO type": 2,
-    "Reference": ""
+    "Reference": "Kunming Institute of Zoology, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -310,7 +310,7 @@ export const genomeRows = [
     "Species": "Thrips alatus",
     "GenBank": "OP913442",
     "GO type": 6,
-    "Reference": ""
+    "Reference": "Kunming Institute of Zoology, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -318,7 +318,7 @@ export const genomeRows = [
     "Species": "Fulmekiola serrata",
     "GenBank": "PP861183",
     "GO type": 8,
-    "Reference": ""
+    "Reference": {"text":"Yin et al. 2024","href":"https://pubmed.ncbi.nlm.nih.gov/39408766/"}
   },
   {
     "Family": "Thripidae",
@@ -326,7 +326,7 @@ export const genomeRows = [
     "Species": "Thrips brunneus",
     "GenBank": "OP913445",
     "GO type": 2,
-    "Reference": ""
+    "Reference": "Kunming Institute of Zoology, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -334,7 +334,7 @@ export const genomeRows = [
     "Species": "Thrips setosus",
     "GenBank": "MN148452",
     "GO type": 6,
-    "Reference": ""
+    "Reference": "InfoBoss Co., Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -342,7 +342,7 @@ export const genomeRows = [
     "Species": "Thrips imaginis",
     "GenBank": "AF335993",
     "GO type": 10,
-    "Reference": ""
+    "Reference": {"text":"Shao et al. 2001","href":"https://pubmed.ncbi.nlm.nih.gov/11504862/"}
   },
   {
     "Family": "Thripidae",
@@ -350,7 +350,7 @@ export const genomeRows = [
     "Species": "Ernothrips longitudinalis",
     "GenBank": "OP913449",
     "GO type": 9,
-    "Reference": ""
+    "Reference": "Kunming Institute of Zoology, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -358,7 +358,7 @@ export const genomeRows = [
     "Species": "Thrips tabaci",
     "GenBank": "PQ197393",
     "GO type": 11,
-    "Reference": ""
+    "Reference": {"text":"Soumia et al. 2025","href":"https://doi.org/10.3389/finsc.2025.1536160"}
   },
   {
     "Family": "Thripidae",
@@ -366,7 +366,7 @@ export const genomeRows = [
     "Species": "Thrips florum",
     "GenBank": "MW592692",
     "GO type": 14,
-    "Reference": ""
+    "Reference": {"text":"Pakrashi et al. 2022","href":"https://pubmed.ncbi.nlm.nih.gov/35534583/"}
   },
   {
     "Family": "Thripidae",
@@ -374,7 +374,7 @@ export const genomeRows = [
     "Species": "Thrips hawaiiensis",
     "GenBank": "MW582621",
     "GO type": 13,
-    "Reference": ""
+    "Reference": {"text":"Wang et al. 2021","href":"https://pubmed.ncbi.nlm.nih.gov/34212107/"}
   },
   {
     "Family": "Thripidae",
@@ -382,7 +382,7 @@ export const genomeRows = [
     "Species": "Thrips major",
     "GenBank": "OP913443",
     "GO type": 12,
-    "Reference": ""
+    "Reference": "Kunming Institute of Zoology, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -390,7 +390,7 @@ export const genomeRows = [
     "Species": "Thrips parvispinus",
     "GenBank": "PQ197392",
     "GO type": 15,
-    "Reference": ""
+    "Reference": {"text":"Soumia et al. 2025","href":"https://doi.org/10.3389/finsc.2025.1536160"}
   },
   {
     "Family": "Thripidae",
@@ -398,7 +398,7 @@ export const genomeRows = [
     "Species": "Thrips parvispinus",
     "GenBank": "OP910112",
     "GO type": 15,
-    "Reference": ""
+    "Reference": {"text":"Pakrashi et al. 2023","href":"https://doi.org/10.1002/arch.22010"}
   },
   {
     "Family": "Thripidae",
@@ -406,7 +406,7 @@ export const genomeRows = [
     "Species": "Taeniothrips eucharii",
     "GenBank": "OP913454",
     "GO type": 16,
-    "Reference": ""
+    "Reference": "Kunming Institute of Zoology, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -414,7 +414,7 @@ export const genomeRows = [
     "Species": "Taeniothrips sp.",
     "GenBank": "ON210966",
     "GO type": 16,
-    "Reference": ""
+    "Reference": {"text":"Liu et al. 2023","href":"https://pubmed.ncbi.nlm.nih.gov/37689283/"}
   },
   {
     "Family": "Thripidae",
@@ -422,7 +422,7 @@ export const genomeRows = [
     "Species": "Taeniothrips tigris",
     "GenBank": "MW751816",
     "GO type": 18,
-    "Reference": ""
+    "Reference": {"text":"Pakrashi et al. 2021","href":"https://doi.org/10.1080/23802359.2021.1947916"}
   },
   {
     "Family": "Thripidae",
@@ -430,7 +430,7 @@ export const genomeRows = [
     "Species": "Ctenothrips transeolineae",
     "GenBank": "OP913440",
     "GO type": 17,
-    "Reference": ""
+    "Reference": "Kunming Institute of Zoology, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -438,7 +438,7 @@ export const genomeRows = [
     "Species": "Lefroyothrips lefroyi",
     "GenBank": "OP913439",
     "GO type": 19,
-    "Reference": ""
+    "Reference": "Kunming Institute of Zoology, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -446,7 +446,7 @@ export const genomeRows = [
     "Species": "Anaphothrips sudanensis",
     "GenBank": "ON210961",
     "GO type": 40,
-    "Reference": ""
+    "Reference": {"text":"Liu et al. 2023","href":"https://pubmed.ncbi.nlm.nih.gov/37689283/"}
   },
   {
     "Family": "Thripidae",
@@ -454,7 +454,7 @@ export const genomeRows = [
     "Species": "Anaphothrips obscurus",
     "GenBank": "KY498001",
     "GO type": 40,
-    "Reference": ""
+    "Reference": {"text":"Liu et al. 2017","href":"https://pubmed.ncbi.nlm.nih.gov/28655921/"}
   },
   {
     "Family": "Thripidae",
@@ -462,7 +462,7 @@ export const genomeRows = [
     "Species": "Aptinothrips stylifer",
     "GenBank": "OQ559124",
     "GO type": 41,
-    "Reference": ""
+    "Reference": "Shaanxi University of Technology, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -470,7 +470,7 @@ export const genomeRows = [
     "Species": "Dendrothrips ornatus",
     "GenBank": "PX262664",
     "GO type": 42,
-    "Reference": ""
+    "Reference": "Shaanxi University of Technology, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -478,7 +478,7 @@ export const genomeRows = [
     "Species": "Dendrothrips minowai",
     "GenBank": "MF582634",
     "GO type": 43,
-    "Reference": ""
+    "Reference": {"text":"Chen et al. 2017","href":"https://doi.org/10.1080/23802359.2017.1419099"}
   },
   {
     "Family": "Thripidae",
@@ -486,7 +486,7 @@ export const genomeRows = [
     "Species": "Pseudodendrothrips",
     "GenBank": "MN167468",
     "GO type": 44,
-    "Reference": ""
+    "Reference": "InfoBoss Co., Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -494,7 +494,7 @@ export const genomeRows = [
     "Species": "Rhipiphorothrips cruentatus",
     "GenBank": "MN072396",
     "GO type": 45,
-    "Reference": ""
+    "Reference": {"text":"Tyagi et al. 2020","href":"https://pubmed.ncbi.nlm.nih.gov/31959910/"}
   },
   {
     "Family": "Thripidae",
@@ -502,7 +502,7 @@ export const genomeRows = [
     "Species": "Heliothrips haemorrhoidalis",
     "GenBank": "MN061888",
     "GO type": 45,
-    "Reference": ""
+    "Reference": "Yunnan Agricultural University, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -510,7 +510,7 @@ export const genomeRows = [
     "Species": "Selenothrips rubrocinctus",
     "GenBank": "MT872374",
     "GO type": 45,
-    "Reference": ""
+    "Reference": {"text":"Pakrashi et al. 2022","href":"https://pubmed.ncbi.nlm.nih.gov/35534583/"}
   },
   {
     "Family": "Thripidae",
@@ -518,7 +518,7 @@ export const genomeRows = [
     "Species": "Selenothrips rubrocinctus",
     "GenBank": "MN037806",
     "GO type": 45,
-    "Reference": ""
+    "Reference": "Yunnan Agricultural University, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -526,7 +526,7 @@ export const genomeRows = [
     "Species": "Phibalothrips peringueyi",
     "GenBank": "MW603839",
     "GO type": 47,
-    "Reference": ""
+    "Reference": {"text":"Pakrashi et al. 2022","href":"https://pubmed.ncbi.nlm.nih.gov/35534583/"}
   },
   {
     "Family": "Thripidae",
@@ -534,7 +534,7 @@ export const genomeRows = [
     "Species": "Panchaetothrips bifurcus",
     "GenBank": "MN037807",
     "GO type": 46,
-    "Reference": ""
+    "Reference": "Yunnan Agricultural University, Direct Submission"
   },
   {
     "Family": "Thripidae",
@@ -542,7 +542,7 @@ export const genomeRows = [
     "Species": "Opimothrips tubulatus",
     "GenBank": "MN787503",
     "GO type": 45,
-    "Reference": ""
+    "Reference": "Yunnan Agricultural University, Direct Submission"
   },
   {
     "Family": "Stenurothripidae",
@@ -550,7 +550,7 @@ export const genomeRows = [
     "Species": "Holarthrothrips indicus",
     "GenBank": "MN072397",
     "GO type": 45,
-    "Reference": ""
+    "Reference": {"text":"Tyagi et al. 2020","href":"https://pubmed.ncbi.nlm.nih.gov/31959910/"}
   },
   {
     "Family": "Aeolothripidae",
@@ -558,7 +558,7 @@ export const genomeRows = [
     "Species": "Aeolothrips fasciatus",
     "GenBank": "PQ740945",
     "GO type": 48,
-    "Reference": ""
+    "Reference": "Yunnan Agricultural University, Direct Submission"
   },
   {
     "Family": "Aeolothripidae",
@@ -566,7 +566,7 @@ export const genomeRows = [
     "Species": "Aeolothrips fasciatus",
     "GenBank": "ON210959",
     "GO type": 48,
-    "Reference": ""
+    "Reference": {"text":"Liu et al. 2023","href":"https://pubmed.ncbi.nlm.nih.gov/37689283/"}
   },
   {
     "Family": "Aeolothripidae",
@@ -574,7 +574,7 @@ export const genomeRows = [
     "Species": "Aeolothrips albicinctus",
     "GenBank": "PP932666",
     "GO type": 48,
-    "Reference": ""
+    "Reference": "Yunnan Agricultural University, Direct Submission"
   },
   {
     "Family": "Aeolothripidae",
@@ -582,7 +582,7 @@ export const genomeRows = [
     "Species": "Aeolothrips melaleucus",
     "GenBank": "ON210970",
     "GO type": 49,
-    "Reference": ""
+    "Reference": {"text":"Liu et al. 2023","href":"https://pubmed.ncbi.nlm.nih.gov/37689283/"}
   },
   {
     "Family": "Aeolothripidae",
@@ -590,7 +590,7 @@ export const genomeRows = [
     "Species": "Aeolothrips sp.",
     "GenBank": "ON210960",
     "GO type": 49,
-    "Reference": ""
+    "Reference": {"text":"Liu et al. 2023","href":"https://pubmed.ncbi.nlm.nih.gov/37689283/"}
   },
   {
     "Family": "Aeolothripidae",
@@ -598,7 +598,7 @@ export const genomeRows = [
     "Species": "Aeolothrips indicus",
     "GenBank": "MW899051",
     "GO type": 49,
-    "Reference": ""
+    "Reference": {"text":"Pakrashi et al. 2021","href":"https://doi.org/10.1080/23802359.2021.1970647"}
   },
   {
     "Family": "Aeolothripidae",
@@ -606,7 +606,7 @@ export const genomeRows = [
     "Species": "Aeolothrips xinjiangensis",
     "GenBank": "MW376485",
     "GO type": 50,
-    "Reference": ""
+    "Reference": {"text":"Liu et al. 2022","href":"https://pubmed.ncbi.nlm.nih.gov/35886761/"}
   },
   {
     "Family": "Aeolothripidae",
@@ -614,7 +614,7 @@ export const genomeRows = [
     "Species": "Desmothrips sp.",
     "GenBank": "KY751031",
     "GO type": 51,
-    "Reference": ""
+    "Reference": {"text":"Liu et al. 2023","href":"https://pubmed.ncbi.nlm.nih.gov/37689283/"}
   },
   {
     "Family": "Aeolothripidae",
@@ -622,7 +622,7 @@ export const genomeRows = [
     "Species": "Franklinothrips strasseni",
     "GenBank": "ON210964",
     "GO type": 52,
-    "Reference": ""
+    "Reference": {"text":"Liu et al. 2023","href":"https://pubmed.ncbi.nlm.nih.gov/37689283/"}
   },
   {
     "Family": "Aeolothripidae",
@@ -630,7 +630,7 @@ export const genomeRows = [
     "Species": "Franklinothrips megalops",
     "GenBank": "ON210963",
     "GO type": 52,
-    "Reference": ""
+    "Reference": {"text":"Liu et al. 2023","href":"https://pubmed.ncbi.nlm.nih.gov/37689283/"}
   },
   {
     "Family": "Aeolothripidae",
@@ -638,7 +638,7 @@ export const genomeRows = [
     "Species": "Franklinothrips vespiformis",
     "GenBank": "MN072395",
     "GO type": 53,
-    "Reference": ""
+    "Reference": {"text":"Tyagi et al. 2020","href":"https://pubmed.ncbi.nlm.nih.gov/31959910/"}
   },
   {
     "Family": "Phlaeothripidae",
@@ -646,7 +646,7 @@ export const genomeRows = [
     "Species": "Pseudophilothrips ichini",
     "GenBank": "OR459834",
     "GO type": 54,
-    "Reference": ""
+    "Reference": {"text":"Telmadarrehei et al. 2024","href":"https://doi.org/10.1515/ﬂaent-2024-0014"}
   },
   {
     "Family": "Phlaeothripidae",
@@ -654,7 +654,7 @@ export const genomeRows = [
     "Species": "Elaphrothrips sp.",
     "GenBank": "ON210968",
     "GO type": 69,
-    "Reference": ""
+    "Reference": {"text":"Liu et al. 2023","href":"https://pubmed.ncbi.nlm.nih.gov/37689283/"}
   },
   {
     "Family": "Phlaeothripidae",
@@ -662,7 +662,7 @@ export const genomeRows = [
     "Species": "Acaciothrips ebneri",
     "GenBank": "MZ645927",
     "GO type": 55,
-    "Reference": ""
+    "Reference": "The University of Queensland, Direct Submission"
   },
   {
     "Family": "Phlaeothripidae",
@@ -670,7 +670,7 @@ export const genomeRows = [
     "Species": "Gynaikothrips ficorum",
     "GenBank": "MT892761",
     "GO type": 56,
-    "Reference": ""
+    "Reference": {"text":"Xie et al. 2021","href":"https://pubmed.ncbi.nlm.nih.gov/34212088/"}
   },
   {
     "Family": "Phlaeothripidae",
@@ -678,7 +678,7 @@ export const genomeRows = [
     "Species": "Gynaikothrips uzeli",
     "GenBank": "MK940484",
     "GO type": 57,
-    "Reference": ""
+    "Reference": {"text":"Tyagi et al. 2020","href":"https://pubmed.ncbi.nlm.nih.gov/31959910/"}
   },
   {
     "Family": "Phlaeothripidae",
@@ -686,7 +686,7 @@ export const genomeRows = [
     "Species": "Eurhynchothrips messuicola",
     "GenBank": "OQ521666",
     "GO type": 58,
-    "Reference": ""
+    "Reference": "Shaanxi University of Technology, Direct Submission"
   },
   {
     "Family": "Phlaeothripidae",
@@ -694,7 +694,7 @@ export const genomeRows = [
     "Species": "Psephenothrips eriobotryae",
     "GenBank": "MW793907",
     "GO type": 59,
-    "Reference": ""
+    "Reference": "Shaanxi University of Technology, Direct Submission"
   },
   {
     "Family": "Phlaeothripidae",
@@ -702,7 +702,7 @@ export const genomeRows = [
     "Species": "Bagnalliella yuccae",
     "GenBank": "ON210967",
     "GO type": 62,
-    "Reference": ""
+    "Reference": {"text":"Liu et al. 2023","href":"https://pubmed.ncbi.nlm.nih.gov/37689283/"}
   },
   {
     "Family": "Phlaeothripidae",
@@ -710,7 +710,7 @@ export const genomeRows = [
     "Species": "Plicothrips apicalis",
     "GenBank": "MT850130",
     "GO type": 61,
-    "Reference": ""
+    "Reference": {"text":"Pakrashi et al. 2022","href":"https://pubmed.ncbi.nlm.nih.gov/35534583/"}
   },
   {
     "Family": "Phlaeothripidae",
@@ -718,7 +718,7 @@ export const genomeRows = [
     "Species": "Haplothrips kurdjumovi",
     "GenBank": "ON210969",
     "GO type": 63,
-    "Reference": ""
+    "Reference": {"text":"Liu et al. 2023","href":"https://pubmed.ncbi.nlm.nih.gov/37689283/"}
   },
   {
     "Family": "Phlaeothripidae",
@@ -726,7 +726,7 @@ export const genomeRows = [
     "Species": "Haplothrips aculeatus",
     "GenBank": "KP198620",
     "GO type": 64,
-    "Reference": ""
+    "Reference": {"text":"Tyagi et al. 2020","href":"https://pubmed.ncbi.nlm.nih.gov/31959910/"}
   },
   {
     "Family": "Phlaeothripidae",
@@ -734,7 +734,7 @@ export const genomeRows = [
     "Species": "Maxillithrips arorai",
     "GenBank": "MT850131",
     "GO type": 60,
-    "Reference": ""
+    "Reference": {"text":"Pakrashi et al. 2022","href":"https://pubmed.ncbi.nlm.nih.gov/35534583/"}
   },
   {
     "Family": "Phlaeothripidae",
@@ -742,7 +742,7 @@ export const genomeRows = [
     "Species": "Phaulothrips vuilleti",
     "GenBank": "OP895675",
     "GO type": 65,
-    "Reference": ""
+    "Reference": "Shaanxi University of Technology, Direct Submission"
   },
   {
     "Family": "Phlaeothripidae",
@@ -750,7 +750,7 @@ export const genomeRows = [
     "Species": "Bolothrips dentipes",
     "GenBank": "PV453706",
     "GO type": 66,
-    "Reference": ""
+    "Reference": "Shaanxi University of Technology, Direct Submission"
   },
   {
     "Family": "Phlaeothripidae",
@@ -758,7 +758,7 @@ export const genomeRows = [
     "Species": "Bolothrips icarus",
     "GenBank": "PV420860",
     "GO type": 67,
-    "Reference": ""
+    "Reference": "Shaanxi University of Technology, Direct Submission"
   },
   {
     "Family": "Phlaeothripidae",
@@ -766,7 +766,7 @@ export const genomeRows = [
     "Species": "Elaphrothrips spiniceps",
     "GenBank": "OP919351",
     "GO type": 66,
-    "Reference": ""
+    "Reference": "Shaanxi University of Technology, Direct Submission"
   },
   {
     "Family": "Phlaeothripidae",
@@ -774,7 +774,7 @@ export const genomeRows = [
     "Species": "Elaphrothrips malayensis",
     "GenBank": "OP850587",
     "GO type": 66,
-    "Reference": ""
+    "Reference": "Shaanxi University of Technology, Direct Submission"
   },
   {
     "Family": "Phlaeothripidae",
@@ -782,7 +782,7 @@ export const genomeRows = [
     "Species": "Megathrips lativentris",
     "GenBank": "OP723481",
     "GO type": 68,
-    "Reference": ""
+    "Reference": "Shaanxi University of Technology, Direct Submission"
   },
   {
     "Family": "Phlaeothripidae",
@@ -790,7 +790,7 @@ export const genomeRows = [
     "Species": "Bactrothrips quadrituberculatus",
     "GenBank": "MW233591",
     "GO type": 68,
-    "Reference": ""
+    "Reference": "Kunming Institute of Zoology, Direct Submission"
   },
   {
     "Family": "Phlaeothripidae",
@@ -798,7 +798,7 @@ export const genomeRows = [
     "Species": "Idolothrips spectrum",
     "GenBank": "KY751033",
     "GO type": 66,
-    "Reference": ""
+    "Reference": {"text":"Liu et al. 2023","href":"https://pubmed.ncbi.nlm.nih.gov/37689283/"}
   },
   {
     "Family": "Thripidae",
@@ -806,7 +806,7 @@ export const genomeRows = [
     "Species": "Taeniothrips major",
     "GenBank": "OQ029381",
     "GO type": 66,
-    "Reference": ""
+    "Reference": "Shaanxi University of Technology, Direct Submission"
   }
 ];
 
