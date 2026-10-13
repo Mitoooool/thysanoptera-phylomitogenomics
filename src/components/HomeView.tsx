@@ -26,7 +26,7 @@ export function HomeView() {
           <div className="space-y-4 text-slate-300 font-light leading-relaxed">
             <p>
               This website contains data for mitochondrial genomic data. The website was created by{' '}
-              <a href="#" className="text-cyan-vivid hover:underline">[Niu G Lab]</a>{' '}
+              <a href="#" className="text-cyan-vivid hover:underline">[NiuG Team]</a>{' '}
               and is being maintained by{' '}
               <a href="#" className="text-cyan-vivid hover:underline">[Mitoooool]</a>.
             </p>

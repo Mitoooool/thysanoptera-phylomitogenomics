@@ -99,7 +99,7 @@ export function Sidebar({ currentView, onNavigate, isOpen, setIsOpen }: SidebarP
 
         <div className="p-4 border-t border-ocean-800">
           <p className="text-[10px] text-slate-500 font-mono leading-relaxed">
-            Maintained by Niu G Lab<br/>
+            Maintained by NiuG Team<br/>
             Mitoooool resource page<br/>
             Release 1.0
           </p>
