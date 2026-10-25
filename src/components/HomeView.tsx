@@ -1,7 +1,30 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { motion } from 'motion/react';
 
 export function HomeView() {
+  const commentsRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const container = commentsRef.current;
+    if (!container || container.childElementCount) return;
+    const script = document.createElement('script');
+    script.src = 'https://giscus.app/client.js';
+    script.async = true;
+    script.crossOrigin = 'anonymous';
+    script.dataset.repo = 'Mitoooool/thysanoptera-phylomitogenomics';
+    script.dataset.repoId = 'R_kgDOSh9iNA';
+    script.dataset.category = 'General';
+    script.dataset.categoryId = 'DIC_kwDOSh9iNM4DJlxH';
+    script.dataset.mapping = 'pathname';
+    script.dataset.strict = '0';
+    script.dataset.reactionsEnabled = '1';
+    script.dataset.emitMetadata = '0';
+    script.dataset.inputPosition = 'top';
+    script.dataset.theme = 'preferred_color_scheme';
+    script.dataset.lang = 'en';
+    container.appendChild(script);
+  }, []);
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -43,6 +66,16 @@ export function HomeView() {
             </p>
           </div>
         </div>
+      </section>
+
+      <section className="mt-16 border-t border-ocean-800 pt-10" aria-labelledby="project-comments-title">
+        <h2 id="project-comments-title" className="font-display text-2xl font-medium text-white mb-3">
+          Project discussion
+        </h2>
+        <p className="text-slate-400 font-light leading-relaxed mb-6">
+          Please report data, annotation, or display issues here. GitHub sign-in is required for comments.
+        </p>
+        <div ref={commentsRef} className="rounded-xl overflow-hidden" />
       </section>
     </motion.div>
   );
